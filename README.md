@@ -2,6 +2,9 @@
 
 Some representative scripts and codes which I wrote for the purposes of: building structures, generating input files for MD simulations, and analyzing MD output files (e.g. atomic trajectories and log files).
 
+These scripts were also published in my final thesis at the following website:
+http://gradworks.umi.com/10/10/10108414.html
+
 Regarding the TCL-Tk scripts, I found the following references helpful:
 http://www.ks.uiuc.edu/Training/SumSchool/materials/sources/tutorials/01-vmd-tutorial/html/vmd-tutorial.html
 http://www.ks.uiuc.edu/Research/vmd/current/ug/
