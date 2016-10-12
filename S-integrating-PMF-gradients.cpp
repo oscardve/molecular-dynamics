@@ -37,3 +37,33 @@ int main ()
 
     return 0;
 }
+
+
+//However, the PMF as function of the radial spherical coordinate should be zero at the maximum radial distance, not at the minimum. Thus the following code should be run after the previous one, only for that variable:
+
+#include <iostream>
+#include <fstream>
+#include <string>
+#include <vector>
+using namespace std;
+
+int main ()
+{
+    //variables:
+    vector<double>x,y;
+    string line;
+
+    //input:
+    ifstream in {"z.pmf"};
+    ofstream out {"z1.pmf"};
+    for(double col1{0},col2{0}; in >> col1 >> col2;)
+    {
+      x.push_back(col1);
+      y.push_back(col2);
+    }
+
+    //output:
+    for(int i{0}; i<x.size(); ++i)
+      out << x[i] << '\t' << y[i]-y.back() << endl;
+    return 0;
+}
