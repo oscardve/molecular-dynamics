@@ -15,3 +15,9 @@ W.E. Shotts. The Linux Command Line: A Complete Introduction. No Starch Press Se
 
 The following reference was helpful for writing the C++ codes:
 B. Stroustrup. Programming: Principles and Practice Using C++. Addison-Wesley, 2014.
+
+Regarding the scripts employed for the computation of the Binding free energy:
+* If using the method of geometrical transformations, have a look at this tutorial:
+http://www.ks.uiuc.edu/Training/Tutorials/namd/PLB/tutorial-protein-ligand.pdf
+* If using the method of Hybrid Steered Molecular Dynamics, please contact my PhD advisor Dr. Liao Chen:
+http://jilll.utsa.edu/phys/lab.html
